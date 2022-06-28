@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:black;
+    font-family:nunito;
+}
+
+H1 {
+    border: 2px #eee solid;
+    color: #378B5B;
+    text-align: center;
+    padding: 18px;
+}
+
+H3 {
+    border: 2px #eee solid;
+    color: #378B5B;
+    text-align: center;
+    padding: 14px;
+}
+H4 {
+    border: 2px #eee solid;
+    color: #378B5B;
+    text-align: center;
+    padding: 14px;
+}
+
+nav{
+    width:100%;
+    height:18%;
+    top:0;
+    position:fixed;
+    background-color:rgba(0,0,0,0.8);
+    border-bottom: 2px solid white;
+    z-index:1;
+}
+
+nav img{
+    position:absolute;
+    left:5%;
+    margin-top:1%;
+}
+
+nav ul{
+    margin-left:60%;
+    top:30%;
+    position:absolute;
+    width:40%;
+}
+
+nav ul li{
+    float:left;
+    list-style:none;
+    font-size:14pt;
+    padding-left:4%;
+}
+
+nav ul li a{
+    position:relative;
+    text-decoration:none;
+    color:white;
+    float:left;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#00BFFF;
+    transition:ease-in 0.5s;
+    border-bottom: solid 3px #00BFFF;
+}
+
+#log{
+    background-color:white;
+    border-radius:5px;
+    padding:5px;
+    color:black;
+    top:-5px;
+}
+
+#log:hover{
+    color:white;
+    transition:ease-in 0.3s;
+    border-bottom: none;
+    background-color:#1E90FF;
+}
+
+.container{
+    position:absolute;
+    top:15%;
+    width:100%;
+    background-color:#000000;
+}
+
+.container img{
+    width:100%;
+}
+
+img #id{
+    transition-property: opacity, left, top, height;
+    transition:ease-in 1s;
+}
+
+.rodape{
+    position:absolute;
+    height:5%;
+    width:100%;
+    background-color:#000000;
+    bottom:0px;
+    color:white;
+}
+
+
+aescola {
+    position: absolute;
+    width: 718px;
+    height: 603px;
+    left: 684px;
+    top: 225px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: justify;
+    color: #1B442C;
+    indent-text: 3mm;
+}
+
+faleconosco {
+    position: absolute;
+    left: 1000px;
+    top: 225px;
+}
+
+eventos {
+    position: absolute;
+    width: 663px;
+    height: 208px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: justify;
+    color: #000000;
+}
+txeven {
+    position: absolute;
+    width: 349px;
+    height: 42px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 42px;
+    color: #1B442C;
+    }
+
+label {
+    font-family: Futura Hv BT;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    display: flex;
+    align-items: center;
+
+    color: #378B5B;
+
+    transform: rotate(0.1deg);
+}
+
+p {
+    indent-text: 5em;
+    }
+
+label_aluno {
+    font-family: Futura Hv BT;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B442C
+}
+
+detalhe_aluno {
+    font-family: Futura Hv BT;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 718px;
+    height: 603px;
+    left: 500px;
+}
+
+label_anamnese {
+    font-family: Futura Hv BT;
+    font-size: 10px;
+    font-style: bold;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B442C
+}
+
+detalhe_anamnese {
+    font-family: Futura Hv BT;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 718px;
+    height: 603px;
+    left: 800px;
+}

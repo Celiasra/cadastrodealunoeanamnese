@@ -1,0 +1,49 @@
+#id{
+    display:none;
+}
+
+body{
+    background-color:black;
+    font-family:nunito;
+}
+
+h3{
+    position:absolute;
+    margin-left:36%;
+    border-style:none;
+    top:20%;
+    font-size:22px;
+    color:#1E90FF;
+}
+
+.pesqaluno{
+    position:relative;
+    width:10%;
+    margin-top:10%;
+    padding:20px;
+    border:none;
+}
+
+hr{
+    border:none;
+}
+
+label_aluno{
+    padding:10px;
+    color:#ffffff;
+    font-family:nunito;
+    font-weight:bold;
+    margin-top:5%;
+    cursor:pointer;
+    left:22%;
+    width:100%;
+    border:none;
+    font-size:16px;
+    margin-top:20%;
+}
+
+button:hover{
+    background-color:#1E90FF;
+    color:white;
+    transition:ease-in 0.3s;
+}

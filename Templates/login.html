@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='login.css')}}">
+    <h3>Insira as informações para acesso à área logada!</h3>
+        <form method="POST" action="/autenticar">
+            <input type="hidden" name="proxima" value="{{ proxima or '/'}}">
+            <label>Nome de usuário:</label>
+            <input class="form-control" type="text" name="usuario" required>
+            <label>Senha:</label>
+            <input class="form-control" type="password" name="senha" required><br>
+            <button class="btn btn-primary" type="submit">Entrar</button>
+        </form>
+
+{% endblock %}
